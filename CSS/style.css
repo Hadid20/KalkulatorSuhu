@@ -4,12 +4,12 @@ header{
 }
 
 header h1 {
-    background-color: rgb(59, 123, 187);
+    background-color: rgb(127, 148, 168);
     border-radius: 20px;
     width: 500px;
-    margin: auto;
+    margin: 10px auto;
     max-width: 100%;
-    padding: 10px 
+    padding: 10px ;
 
 }
 
@@ -22,6 +22,8 @@ body {
 .input-s {
     display: flex;
     flex-direction: column;
+    margin: 0 10px;
+
     
 }
 
@@ -30,9 +32,46 @@ label {
     margin: 10px 0;
     font-weight: bold;
     font-size: 20px;
+    
 }
 
 .input-s input {
+    padding: 10px;
     height: 30px;
-    border-radius: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(127, 148, 168);
+    outline: none;
+}
+.input-s input:focus {
+   border: solid rgb(129, 194, 255);
+}
+
+.input-s button{
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(127, 148, 168);
+    color: rgb(129, 194, 255);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.input-s button:hover {
+    background-color:rgb(30, 44, 58);
+    color: rgb(59, 123, 187);
+  
+}
+
+.input-s button:active {
+    background-color: rgb(78, 113, 148);
+    color: white;
+    margin: 0px 10px;
+}
+
+.input-s div {
+    
+    margin: auto;
 }
